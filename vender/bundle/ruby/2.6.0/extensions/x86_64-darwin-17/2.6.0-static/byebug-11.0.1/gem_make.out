@@ -1,0 +1,19 @@
+current directory: /Users/kojiro.yamashiro/Projects/private/what_time_is_it_API/vender/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+/Users/kojiro.yamashiro/.anyenv/envs/rbenv/versions/2.6.1/bin/ruby -I /Users/kojiro.yamashiro/.anyenv/envs/rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190717-9621-1q9dagq.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kojiro.yamashiro/Projects/private/what_time_is_it_API/vender/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/kojiro.yamashiro/Projects/private/what_time_is_it_API/vender/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/kojiro.yamashiro/Projects/private/what_time_is_it_API/vender/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20190717-9621-10sv48u/byebug
