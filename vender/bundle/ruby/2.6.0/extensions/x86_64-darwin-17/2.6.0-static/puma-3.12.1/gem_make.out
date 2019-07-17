@@ -1,0 +1,21 @@
+current directory: /Users/kojiro.yamashiro/Projects/private/what_time_is_it_API/vender/bundle/ruby/2.6.0/gems/puma-3.12.1/ext/puma_http11
+/Users/kojiro.yamashiro/.anyenv/envs/rbenv/versions/2.6.1/bin/ruby -I /Users/kojiro.yamashiro/.anyenv/envs/rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190717-15915-1j2wd3a.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /Users/kojiro.yamashiro/Projects/private/what_time_is_it_API/vender/bundle/ruby/2.6.0/gems/puma-3.12.1/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /Users/kojiro.yamashiro/Projects/private/what_time_is_it_API/vender/bundle/ruby/2.6.0/gems/puma-3.12.1/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+
+current directory: /Users/kojiro.yamashiro/Projects/private/what_time_is_it_API/vender/bundle/ruby/2.6.0/gems/puma-3.12.1/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20190717-15915-cvixmm/puma
